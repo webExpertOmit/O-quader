@@ -1,0 +1,78 @@
+ /*=====================================================================
+  Use a media query to add a breakpoint at min 1200px and max 2524px
+======================================================================*/
+@media screen and (min-device-width: 1200px) and (max-device-width: 2524px){
+    
+}
+
+
+/*=====================================================================
+  Use a media query to add a breakpoint at min 992px and max 1199px
+======================================================================*/
+@media screen and (min-device-width: 992px) and (max-device-width: 1199px){
+    
+}
+
+
+
+
+/*=====================================================================
+  Use a media query to add a breakpoint at min 768px and max 991px
+======================================================================*/
+@media screen and (min-device-width: 768px) and (max-device-width: 991px){
+    .some-about{
+        margin-bottom: 50px;
+    }
+    .slider-item h2{
+        font-size: 32px;
+    }
+     .slider-item h1{
+        font-size: 38px;
+    }
+    
+    
+}
+
+
+
+
+/*=====================================================================
+  Use a media query to add a breakpoint at min 576px and max 767px
+======================================================================*/
+@media screen and (min-device-width: 576px) and (max-device-width: 767px){
+    
+     .some-about{
+        margin-bottom: 50px;
+    }
+    .slider-item h2{
+        font-size: 26px;
+    }
+     .slider-item h1{
+        font-size: 33px;
+    }
+    
+}
+
+
+/*=====================================================================
+  Use a media query to add a breakpoint at min 300px and max 575px
+======================================================================*/
+@media screen and (min-device-width: 300px) and (max-device-width: 575px){
+    
+    .some-about{
+        margin-bottom: 50px;
+    }
+    .slider-item h2{
+        font-size: 16px;
+    }
+     .slider-item h1{
+        font-size: 20px;
+    }
+    .contect-form-area input, select{
+        width: 100%;
+    }
+    .contect-form-area .ml{
+    margin-left: 0;
+}
+    
+}

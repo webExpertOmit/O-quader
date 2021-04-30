@@ -1,0 +1,332 @@
+/*
+===========================
+Common CSS Start Here
+===========================
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body{
+    font-size: 16px;
+    color: #444;
+    font-family: 'Poppins', sans-serif;
+}
+img{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color: #444;
+}
+a:hover{
+    color: #444;
+}
+.primary-bg{
+    background: #da1333;
+}
+.secondary-bg{
+    background: #213875;
+}
+.primary-color{
+    color: #da1333;
+}
+.secondary-color{
+    color: #213875;
+}
+.p-80{
+    padding: 80px 0px;
+}
+.section-title{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.section-title h2{
+    font-size: 45px;
+    letter-spacing: 3px;
+    color: #213875;
+    text-transform: capitalize;
+}
+.style{
+    width: 80px;
+    height: 3px;
+    margin: auto;
+    background:#da1333; 
+}
+.color-w{
+    color: #fff;
+}
+.our-btn{
+    padding: 10px 25px;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-top: 25px;
+    border: 1px solid #da1333;
+    color: #fff;
+    border-radius: 5px;
+    transition: .4s;
+}
+.our-btn:focus{
+    outline: 0;
+}
+.our-btn:hover{
+    background: #a90721;
+    color: #fff;
+}
+
+
+
+/*
+===========================
+Common CSS End Here
+===========================
+*/
+
+
+
+/*
+===========================
+Header CSS Start Here
+===========================
+*/
+.menu-area ul li a:hover{
+    color: #213875; 
+}
+
+/*
+===========================
+Header CSS End Here
+===========================
+*/
+
+
+
+
+/*
+===========================
+Slider CSS Start Here
+===========================
+*/
+.slider-item{
+    position: relative;
+}
+.slider-content{
+    position: absolute;
+    top: 50%;
+    left:15%;
+    transform: translate(0, -50%);
+}
+.slider-content h2{
+    color: #fff;
+    font-size: 45px;
+    letter-spacing: 2px;
+    
+}
+.slider-content h1{
+    font-size: 55px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    
+}
+.slider-item::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background:rgba(0,0,0,.7);
+    
+    
+}
+/*
+===========================
+Slider CSS End Here
+===========================
+*/
+
+
+
+
+/*
+===========================
+About CSS Start Here
+===========================
+*/
+.some-about a{
+    text-decoration: none;
+}
+/*
+===========================
+About CSS End Here
+===========================
+*/
+
+
+
+
+/*
+===========================
+News CSS Start Here
+===========================
+*/
+.news-item a{
+    text-decoration: none;
+}
+.news-item{
+    padding: 15px;
+    box-shadow: 0px 8px 8px 0px #f1f1f1;
+    transition: .4s;
+    margin: 15px 0px;
+}
+.news-item:hover{
+    box-shadow: 0px 8px 8px 0px #f1aab5;
+}
+.news-img{
+    overflow: hidden;
+}
+.news-img img{
+    transition: .4s;
+}
+.news-item:hover img{
+    transform: scale(1.1);
+}
+.news-item:hover hr{
+    background: #da1333;
+}
+.news-content h5{
+    margin-top: 15px;
+}
+
+/*
+===========================
+News CSS End Here
+===========================
+*/
+
+
+
+
+
+/*
+===========================
+Footer CSS Start Here
+===========================
+*/
+.footer-item {
+    padding: 15px;
+}
+.footer-item h5{
+    color: #fff;
+    margin-bottom: 20px;
+}
+.footer-item li{
+    list-style: none;
+    color: #fff;
+}
+.footer-item li a{
+    color: #fff;
+}
+.copy-right{
+    color: #fff;
+    text-align: center;
+    padding: 10px 0px;
+    font-size: 14px;
+}
+/*
+===========================
+Footer CSS End Here
+===========================
+*/
+
+
+
+
+
+
+/*
+===========================
+Contact CSS Start Here
+===========================
+*/
+.contect-form-area .ml{
+    margin-left: 3%;
+}
+.contect-form-area input, select{
+    width: 48%;
+    padding: 8px 15px;
+    margin: 25px 0px;
+    border: none;
+    box-shadow: 0px 8px 8px 0px #f1f1f1;
+    outline: 0;
+}
+.contect-form-area textarea{
+    width: 100%;
+    padding: 8px 15px;
+    margin: 25px 0px;
+    border: none;
+    box-shadow: 0px 8px 8px 0px #f1f1f1;
+    outline: 0;
+}
+
+/*
+===========================
+Contact CSS End Here
+===========================
+*/
+
+
+
+
+
+/*
+===========================
+Gallery CSS Start Here
+===========================
+*/
+.gallery-item{
+    padding: 15px;
+    box-shadow: 0px 8px 8px 0px #f1f1f1;
+    margin: 15px 0px;
+}
+/*
+===========================
+Gallery CSS End Here
+===========================
+*/
+
+
+
+
+
+/*
+===========================
+Common CSS Start Here
+===========================
+*/
+/*
+===========================
+Common CSS End Here
+===========================
+*/
+
+
+
+
+
+
+
+/*
+===========================
+Common CSS Start Here
+===========================
+*/
+/*
+===========================
+Common CSS End Here
+===========================
+*/
+
